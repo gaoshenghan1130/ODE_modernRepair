@@ -5,6 +5,13 @@
 *.o
 .deps/
 .libs/
+build/
+build*/
+/build*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
 aclocal.m4
 autom4te.cache
 compile
@@ -28,7 +35,7 @@ stamp-h1
 test-driver
 
 # Macos
-.DS_Store
+*.DS_Store
 
 # these need to be matched in specific directories
 /m4/libtool.m4
