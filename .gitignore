@@ -27,6 +27,9 @@ ode-config
 stamp-h1
 test-driver
 
+# Macos
+.DS_Store
+
 # these need to be matched in specific directories
 /m4/libtool.m4
 /m4/lt*.m4
